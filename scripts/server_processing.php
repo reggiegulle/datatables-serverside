@@ -50,12 +50,12 @@ $columns = array(
 );
 
 // SQL server connection information
-$sql_details = array(
+$sql_details = [
 	'user' => '',
 	'pass' => '',
 	'db'   => '',
 	'host' => ''
-);
+];
 
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
