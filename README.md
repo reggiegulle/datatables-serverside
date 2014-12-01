@@ -1,4 +1,4 @@
-#Changed notation for the PDO parameters
+#Basic-styling branch
 =====================
 
-The syntax for the PDO parameters in connecting to the mySQL database are slightly modified.
+Modifying the styling of the table to become compatible with bootstrap and to become responsive.
