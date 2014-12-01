@@ -22,9 +22,10 @@
 
 <script type="text/javascript">
 $(document).ready(function(){
-    $("#example").dataTable({
+    $("#example").DataTable({
         "processing": true,
         "serverSide": true,
+		"responsive": true,
         "ajax": "scripts/server_processing.php"
     });
 });
@@ -34,23 +35,12 @@ $(document).ready(function(){
 			<tr>
 				<th>First name</th>
 				<th>Last name</th>
-				<th>Position</th>
-				<th>Office</th>
-				<th>Start date</th>
-				<th>Salary</th>
+				<th class="min-tablet">Position</th>
+				<th class="min-desktop">Office</th>
+				<th class="min-desktop">Start date</th>
+				<th class="min-desktop">Salary</th>
 			</tr>
 		</thead>
-
-		<tfoot>
-			<tr>
-				<th>First name</th>
-				<th>Last name</th>
-				<th>Position</th>
-				<th>Office</th>
-				<th>Start date</th>
-				<th>Salary</th>
-			</tr>
-		</tfoot>
 	</table>
 	
 <section>
